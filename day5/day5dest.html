@@ -7,7 +7,7 @@
     <body>
         <h2>results page:</h2>
         <script>
-            const params = new URLSearchParams(window.location.serach);
+            const params = new URLSearchParams(window.location.search);
             const userSearch = params.get("query");
             document.write("you searched for:" + userSearch);
         </script>
