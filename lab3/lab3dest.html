@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lan = "en">
+
+<head>
+    <title>search results</title>
+</head>
+
+<body>
+    <h2>search results</h2>
+    <div id = "resultOutput"></div>
+        <p>loading...</p>
+    </div>
+
+    <script>
+        const queryString = window.location.search
+        const urlParams = URLSearchParams(queryString)
+        const queryValue = urlParams.get("query")
+
+        const outputDiv = document.getElementbtId("resultOutput")
+
+        outputDiv.innerHTML = "<p>loaded</p>"
+
+    </script>
+
+</body>
+
+
+
+</html>
