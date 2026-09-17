@@ -13,9 +13,10 @@ h1{
     text-align: center;
 }
 
+
 table {
     width: 100%;
-    max width: 600px;
+    max-width: 600px;
     margin: 20px auto;
     border-collapse: collapse;
     border: 2px solid grey;
@@ -28,7 +29,7 @@ th,td{
 }
 
 th{
-    backround-color: rgb(138, 39, 39)
+    background-color: rgb(138, 39, 39)
 }
 
 a{
