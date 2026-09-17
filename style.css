@@ -18,7 +18,7 @@ table {
     max width: 600px;
     margin: 20px auto;
     border-collapse: collapse;
-    border: 2px  rgb(87, 81, 81);
+    border: 2px solid rgb(87, 81, 81);
 }
 
 th,td{
