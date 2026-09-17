@@ -18,11 +18,11 @@ table {
     max width: 600px;
     margin: 20px auto;
     border-collapse: collapse;
-    border: 2px solid rgb(87, 81, 81);
+    border: 2px solid grey;
 }
 
 th,td{
-    border: 1px solid rgb(87, 81, 81);
+    border: 1px solid grey;
     padding: 12px;
     text-align: left;
 }
