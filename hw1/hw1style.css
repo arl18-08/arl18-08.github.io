@@ -1,0 +1,21 @@
+header{
+background-color: rgb(144, 163, 180);
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+body{
+background-color: rgb(100, 112, 124);
+font-family: 'Times New Roman', Times, serif;
+}
+
+#table{
+ max-width: 600px;
+ margin: 20px auto;
+ border-collapse: collapse;
+ border: 2px solid rgb(122, 146, 153);
+}
+
+form{
+background-color: aliceblue;
+}
