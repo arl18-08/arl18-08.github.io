@@ -1,14 +1,20 @@
 header{
-background-color: rgb(142, 166, 187);
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
+ background-color: rgb(142, 166, 187);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+}
+
+h2{
+ background-color: rgb(142, 166, 187);
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
 }
 
 body{
-background-color: rgb(203, 214, 224);
-font-family: 'Times New Roman', Times, serif;
-margin: 40px;
-padding: 20px;
+ background-color: rgb(203, 214, 224);
+ font-family: Times, serif;
+ margin: 40px;
+ padding: 20px;
 }
 
 #table{
@@ -26,5 +32,5 @@ th,td{
 }
 
 form{
-background-color:rgb(142, 166, 187);
+ background-color:rgb(142, 166, 187);
 }
