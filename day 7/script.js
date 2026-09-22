@@ -1,4 +1,6 @@
-let playerScore = 0;
-const maxHealth = 100;
+let playerHealth = 100;
+const damageAmount = 30;
 
-console.log(playerScore);
+function takeDamage(){
+    
+}
