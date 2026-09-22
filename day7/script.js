@@ -8,4 +8,15 @@ function takeDamage() {
     const statusText = document.getElementbyId("status-message");
 
     healthText.innerText = playerHealth;
+
+    if(playerHealth > 0) 
+    {
+        healthText.innerText = playerHealth;
+        statusText.innerText = "you've been hit!";
+    }
+    else
+    {
+        healthText.innerText = 0;
+        statusText.innerText = "game over." ;
+    }
 }
