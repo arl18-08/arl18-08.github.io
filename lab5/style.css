@@ -17,7 +17,7 @@ transition:background-color 0.3s;
 
 }
 
-#addHealthButton{
+#yes{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -28,7 +28,7 @@ transition:background-color 0.3s;
     cursor: pointer;
 }
 
-#takeDamageButton{
+#no{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
