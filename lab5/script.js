@@ -22,8 +22,8 @@ function addHealth() {
         statusText.style.color = "#a52c1f";
         statusText.style.fontWeight = "bold";
         document.body.style.backgroundColor ="#5a1a1a";
-        document.querySelector("button").disabled = true;
-        document.querySelector("button").innerText = "GREEDY";
+        document.querySelector("button" id="yes").disabled = true;
+        document.querySelector("button" id="yes").innerText = "GREEDY";
     }
 }
 
@@ -48,7 +48,7 @@ function takeDamage() {
         statusText.style.color = "#a52c1f";
         statusText.style.fontWeight = "bold";
         document.body.style.backgroundColor ="#5a1a1a";
-        document.querySelector("button").disabled = true;
-        document.querySelector("button").innerText = "BROKE";
+        document.querySelector("button" id="no").disabled = true;
+        document.querySelector("button" id="no").innerText = "BROKE";
     }
 }
