@@ -8,7 +8,7 @@ transition:background-color 0.3s;
 }
 
 #player-card{
-    background-color: rgb(223, 112, 21);
+    background-color: rgb(165, 77, 5);
     border: 2px solid rgb(241, 218, 197);
     border-radius: 10px;
     width: 300px;
@@ -17,11 +17,22 @@ transition:background-color 0.3s;
 
 }
 
-button{
+#addHealthButton{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    background-color:rgb(226, 183, 43);
+    background-color:rgb(25, 136, 53);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#takeDamageButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:rgb(136, 25, 25);
     color:white;
     border: none;
     border-radius: 5px;
@@ -29,5 +40,5 @@ button{
 }
 
 button:hover{
-    background-color: red;
+    background-color: rgb(240, 206, 97);
 }
