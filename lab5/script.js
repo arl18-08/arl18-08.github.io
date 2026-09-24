@@ -10,7 +10,7 @@ function addHealth() {
 
     healthText.innerText= moneyBalance;
 
-    if(moneyBalance>100 && moneyBalance>0)
+    if(moneyBalance<100 && moneyBalance>0)
     {
         healthText.innerText = moneyBalance;
         statusText.innerText = "you got money!";
