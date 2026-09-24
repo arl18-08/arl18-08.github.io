@@ -39,7 +39,7 @@ function takeDamage() {
     if(moneyBalance> 0) 
     {
         healthText.innerText = moneyBalance;
-        statusText.innerText = "you got money!";
+        statusText.innerText = "yoy lost money.";
     }
     else
     {

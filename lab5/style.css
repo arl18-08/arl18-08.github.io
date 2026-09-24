@@ -39,6 +39,6 @@ transition:background-color 0.3s;
     cursor: pointer;
 }
 
-button:hover{
+#yes,#no:hover{
     background-color: rgb(240, 206, 97);
 }
