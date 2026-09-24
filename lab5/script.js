@@ -1,4 +1,4 @@
-let moneyBalance = 100;
+let moneyBalance = 50;
 const healthAmount = 10;
 const damageAmount = 10;
 
@@ -9,14 +9,15 @@ function addHealth() {
     const statusText = document.getElementById("status-message");
 
     healthText.innerText= moneyBalance;
-    if(0>moneyBalance>200)
+
+    if(0>moneyBalance>100)
     {
         healthText.innerText = moneyBalance;
         statusText.innerText = "you got money!";
     }
-    if(moneybalance> 200)
+    if(moneybalance> 100)
     {
-        healthText.innerText = 200;
+        healthText.innerText = 100;
         statusText.innerText = "greed is a sin.";
         statusText.style.color = "#a52c1f";
         statusText.style.fontWeight = "bold";
@@ -24,7 +25,6 @@ function addHealth() {
         document.querySelector("button").disabled = true;
         document.querySelector("button").innerText = "GREEDY";
     }
-
 }
 
 
@@ -39,7 +39,7 @@ function takeDamage() {
     if(moneyBalance> 0) 
     {
         healthText.innerText = moneyBalance;
-        statusText.innerText = "yoy lost money.";
+        statusText.innerText = "you lost money.";
     }
     else
     {
