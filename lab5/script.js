@@ -3,7 +3,7 @@ const healthAmount = 10;
 const damageAmount = 10;
 
 function addHealth() {
-    moneyBalance = moneyBalance - healthAmount;
+    moneyBalance = moneyBalance + healthAmount;
 
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");

@@ -39,6 +39,6 @@ transition:background-color 0.3s;
     cursor: pointer;
 }
 
-#yes,#no:hover{
+#yes:hover, #no:hover{
     background-color: rgb(240, 206, 97);
 }
