@@ -15,7 +15,7 @@ function addHealth() {
         healthText.innerText = moneyBalance;
         statusText.innerText = "you got money!";
     }
-    if(moneybalance>100)
+    else
     {
         healthText.innerText = 100;
         statusText.innerText = "greed is a sin.";
