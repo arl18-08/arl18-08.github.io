@@ -23,7 +23,7 @@ function addHealth() {
         statusText.style.fontWeight = "bold";
         document.body.style.backgroundColor ="#5a1a1a";
         document.getElementById("yes").disabled = true;
-        document.getElementById("no")disabled = true;
+        document.getElementById("no").disabled = true;
         document.getElementById("yes").innerText = "GREEDY";
     }
 }
@@ -50,7 +50,7 @@ function takeDamage() {
         statusText.style.fontWeight = "bold";
         document.body.style.backgroundColor ="#5a1a1a";
         document.getElementById("no").disabled = true;
-        document.getElementById("yes")disabled = true;
-        document.getElementById("no").innerText = "GREEDY";
+        document.getElementById("yes").disabled = true;
+        document.getElementById("no").innerText = "BROKE";
     }
 }
