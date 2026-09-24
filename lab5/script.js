@@ -5,12 +5,12 @@ const damageAmount = 10;
 function addHealth() {
     moneyBalance = moneyBalance - healthAmount;
 
-    const healthText = document.getElementById("health-display");
+    const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
 
     healthText.innerText= moneyBalance;
 
-    if(0>moneyBalance>100)
+    if(moneyBalance>100 && moneyBalance>0)
     {
         healthText.innerText = moneyBalance;
         statusText.innerText = "you got money!";
@@ -31,7 +31,7 @@ function addHealth() {
 function takeDamage() {
     moneyBalance = moneyBalance - damageAmount;
 
-    const healthText = document.getElementById("health-display");
+    const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
 
     healthText.innerText = moneyBalance;
