@@ -1,8 +1,8 @@
 // Default checklist items
 const checklistItems = [
-"clear bag",
-"water",
-"rally towel"
+    "clear bag",
+    "water",
+    "rally towel"
 ];
 
 // Get the HTML elements
@@ -13,19 +13,19 @@ const itemInput = document.getElementById("item-input");
 // Display all items in the array
 function displayItems() {
 // Clear the current list
-checklist.innerHTML = "";
+    checklist.innerHTML = "";
 
-// Add each item to the unordered list
-checklistItems.forEach(function(item) {
-    const listItem = document.createElement("li");
+    // Add each item to the unordered list
+    checklistItems.forEach(function(item) {
+        const listItem = document.createElement("li");
 
-    listItem.textContent = item;
+        listItem.textContent = item;
 
-    checklist.appendChild(listItem);
+        checklist.appendChild(listItem);
 });
-
-
 }
+
+
 
 // Add a new item when the form is submitted
 checklistForm.addEventListener("submit", function(event) {
