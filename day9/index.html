@@ -1,35 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bag List</title>
-</head>
-<body>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Gameday Checklist</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 
-    <h2>Add an item to your bag</h2>
+</head> 
+<body> 
+    <header> <h1>Gameday Checklist</h1> </header>
+<main>
+    <section aria-labelledby="checklist-heading">
+        <h2 id="checklist-heading">Add an Item</h2>
 
-    <input type="text" id="itemInput" placeholder="Enter an item">
-    <button onclick="addItem()">Add to List</button>
+        <form id="checklist-form">
+            <label for="item-input">Item</label>
+            <input
+                type="text"
+                id="item-input"
+                name="item"
+                placeholder="Enter an item"
+                autocomplete="off"
+                required
+            >
+            <button type="submit">Add to List</button>
+        </form>
 
-    <ul id="itemList"></ul>
+        <ul id="checklist">
+            <!-- Checklist items will be added here -->
+        </ul>
+    </section>
 
-    <script>
-        function addItem() {
-            const input = document.getElementById("itemInput");
-            const itemText = input.value.trim();
+</main>
 
-            if (itemText !== "") {
-                const listItem = document.createElement("li");
-                listItem.textContent = itemText;
-
-                document.getElementById("itemList").appendChild(listItem);
-
-                input.value = "";
-                input.focus();
-            }
-        }
-    </script>
-
-</body>
+</body> 
 </html>
