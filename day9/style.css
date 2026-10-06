@@ -1,0 +1,95 @@
+/* General page styling */
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #000000;
+color: #ffffff;
+text-align: center;
+}
+
+/* Page header */
+header {
+background-color: #73000a;
+padding: 25px;
+}
+
+h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+/* Main content */
+main {
+max-width: 600px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+/* Section heading */
+h2 {
+color: #73000a;
+background-color: #ffffff;
+padding: 10px;
+border-radius: 6px;
+}
+
+/* Form */
+form {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-bottom: 30px;
+}
+
+label {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+}
+
+input[type="text"] {
+flex: 1;
+padding: 12px;
+border: 2px solid #73000a;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+button {
+padding: 12px 18px;
+background-color: #73000a;
+color: #ffffff;
+border: 2px solid #73000a;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #99000d;
+}
+
+/* Checklist */
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+background-color: #1a1a1a;
+border: 2px solid #73000a;
+border-radius: 6px;
+padding: 15px;
+margin-bottom: 12px;
+color: #ffffff;
+text-align: center;
+font-size: 1.1rem;
+}
