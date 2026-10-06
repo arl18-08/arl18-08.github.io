@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag List</title>
+</head>
+<body>
+
+    <h2>Add an item to your bag</h2>
+
+    <input type="text" id="itemInput" placeholder="Enter an item">
+    <button onclick="addItem()">Add to List</button>
+
+    <ul id="itemList"></ul>
+
+    <script>
+        function addItem() {
+            const input = document.getElementById("itemInput");
+            const itemText = input.value.trim();
+
+            if (itemText !== "") {
+                const listItem = document.createElement("li");
+                listItem.textContent = itemText;
+
+                document.getElementById("itemList").appendChild(listItem);
+
+                input.value = "";
+                input.focus();
+            }
+        }
+    </script>
+
+</body>
+</html>
