@@ -1,22 +1,95 @@
 /* Overall page */ 
-body { margin: 0; min-height: 100vh; display: flex; font-family: Arial, sans-serif; background-color: #ffffff; }
+body { 
+    margin: 0; 
+    min-height: 100vh; 
+    display: flex; 
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff; 
+}
 
-/* Left sidebar */ header { width: 30%; min-height: 100vh; box-sizing: border-box; padding: 40px 25px; background-color: #e88aaa; color: #ffffff; }
+/* Left sidebar */ 
+header { 
+    width: 30%; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    padding: 40px 25px; 
+    background-color: #e88aaa; 
+    color: #ffffff; 
+}
 
-/* Header title */ header h1 { margin-top: 0; font-size: 2rem; line-height: 1.2; }
+/* Header title */ 
+header h1 { 
+    margin-top: 0; 
+    font-size: 2rem; 
+    line-height: 1.2; 
+}
 
-/* Main content area */ main { width: 70%; min-height: 100vh; box-sizing: border-box; background-color: #ffffff; color: #008c95; }
+/* Main content area */ 
+main { 
+    width: 70%; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    background-color: #ffffff; 
+    color: #008c95; 
+}
 
-/* Sidebar containing the dessert categories */ section[aria-labelledby="dessert-categories-heading"] { width: 30%; min-height: 100vh; box-sizing: border-box; padding: 40px 25px; background-color: #e88aaa; color: #ffffff; position: fixed; left: 0; top: 0; }
+/* Sidebar containing the dessert categories */ 
+section[aria-labelledby="dessert-categories-heading"] { 
+    width: 30%; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    padding: 40px 25px; 
+    background-color: #e88aaa; 
+    color: #ffffff; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+}
 
-/* Dessert category heading */ section[aria-labelledby="dessert-categories-heading"] h2 { margin-top: 0; font-size: 1.5rem; }
+/* Dessert category heading */ 
+section[aria-labelledby="dessert-categories-heading"] h2 { 
+    margin-top: 0; font-size: 1.5rem; 
+}
 
-/* Dessert category buttons */ section[aria-labelledby="dessert-categories-heading"] button { display: block; width: 100%; margin: 15px 0; padding: 15px; box-sizing: border-box; border: 2px solid #ffffff; border-radius: 6px; background-color: #008c95; color: #ffffff; font-size: 1rem; font-weight: bold; cursor: pointer; }
+/* Dessert category buttons */ 
+section[aria-labelledby="dessert-categories-heading"] button { 
+    display: block; 
+    width: 100%; 
+    margin: 15px 0; 
+    padding: 15px; 
+    box-sizing: border-box; 
+    border: 2px solid #ffffff; 
+    border-radius: 6px; 
+    background-color: #008c95;
+    color: #ffffff; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+}
 
-/* Button hover effect */ section[aria-labelledby="dessert-categories-heading"] button:hover { background-color: #006f76; }
+/* Button hover effect */ 
+section[aria-labelledby="dessert-categories-heading"] button:hover {
+     background-color: #006f76; 
+    }
 
-/* Main dessert section */ section[aria-labelledby="best-dessert-heading"] { margin-left: 30%; width: 70%; min-height: 100vh; box-sizing: border-box; padding: 40px; background-color: #ffffff; color: #008c95; }
+/* Main dessert section */ 
+section[aria-labelledby="best-dessert-heading"] { 
+    margin-left: 30%; 
+    width: 70%;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    padding: 40px; 
+    background-color: #ffffff; 
+    color: #008c95; 
+}
 
-/* Best dessert heading */ section[aria-labelledby="best-dessert-heading"] h2 { margin-top: 0; }
+/* Best dessert heading */ 
+section[aria-labelledby="best-dessert-heading"] h2 { 
+    margin-top: 0; 
+}
 
-/* Dessert result displayed by JavaScript */ #dessert-result { color: #e88aaa; font-size: 1.5rem; font-weight: bold; }
+/* Dessert result displayed by JavaScript */ #dessert-result { 
+    color: #e88aaa; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
