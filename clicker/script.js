@@ -32,7 +32,6 @@ function buyElectricKeyboard()
     if(linesOfCode >= electricUpgradeCost)
         linesOfCode= linesOfCode - electricUpgradeCost;
         clickPower= clickPower + 50;
-        document.getElementById("buyElectricKeyboard").disabled = true;
         document.getElementById("buyKeyboard").disabled = true;
         updateScreen();
 }
