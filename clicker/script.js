@@ -32,7 +32,7 @@ function buyElectricKeyboard()
     if(linesOfCode >= electricUpgradeCost)
         linesOfCode= linesOfCode - electricUpgradeCost;
         clickPower= clickPower + 50;
-        document.getElementById("buyKeyboard").disabled = true;
+        electricUpgradeCost= electricUpgradeCost * 2;
         updateScreen();
 }
 
@@ -65,7 +65,7 @@ function updateScreen()
     document.getElementById("power-display").innerText= clickPower;
     document.getElementById("cost-display").innerText= upgradeCost;
     document.getElementById("cost-electric-display").innerText= electricUpgradeCost;
-    
+
 
     document.getElementById("intern-display").innerText = interns;
     document.getElementById("cost-intern-display").innerText = internCost;
@@ -81,7 +81,7 @@ setInterval(function() {
         updateScreen();
     }
 },
-1000
+10000
 );
 
 setInterval(function() {
@@ -91,5 +91,5 @@ setInterval(function() {
         updateScreen();
     }
 },
-1000
+10000
 );
