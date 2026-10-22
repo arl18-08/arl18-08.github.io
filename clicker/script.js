@@ -54,7 +54,7 @@ function buyEmployee()
     {
         linesOfCode= linesOfCode - employeeCost;
         employees = employees + 1;
-        employeeCostCost = employeeCostCost * 1.5;
+        employeeCostCost = employeeCost * 1.5;
         updateScreen()
     }
 }
