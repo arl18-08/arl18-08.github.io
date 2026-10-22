@@ -16,14 +16,20 @@
             <main id="shop">
                 <h3>Hardware Store (Manual Upgrade)</h3>
                 <p>Current Click Power: <span id="power-display">1</span></p>
-                <button id="upgrade-button" onClick="buyKeyboard()">
+                <button id="upgrade-button" onclick="buyKeyboard()">
                   Buy Mechanical Keyboard (Cost: <span id="cost-display">50</span>)
+                </button>
+                <button id="ultra-upgrade-button" onclick="buyElectricKeyboard()">
+                    Buy Electric Keyboard (Cost: <span id="cost-mech-display">1000</span>)
                 </button>
 
                 <h3>Hiring Department (Auto Clicking)</h3>
                 <p>Active Interns: <span id="intern-display">0</span></p>
-                <button id="intern-button" onClick="buyIntern()">
+                <button id="intern-button" onclick="buyIntern()">
                   Hire Intern (Cost: <span id="cost-intern-display">100</span>)
+                </button>
+                <button id= "training-button" onclick= "trainIntern()">
+                   Train Intern (Cost <span id= "train-intern-display">55</span>)
                 </button>
             </main>
         </div>
