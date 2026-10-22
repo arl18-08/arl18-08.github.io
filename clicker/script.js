@@ -65,9 +65,12 @@ function updateScreen()
     document.getElementById("power-display").innerText= clickPower;
     document.getElementById("cost-display").innerText= upgradeCost;
     document.getElementById("cost-electric-display").innerText= electricUpgradeCost;
+    
 
     document.getElementById("intern-display").innerText = interns;
     document.getElementById("cost-intern-display").innerText = internCost;
+
+    document.getElementById("employee-display").innerText = employees;
     document.getElementById("cost-employee-display").innerText = employeeCost;
 }
 
