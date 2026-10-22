@@ -54,7 +54,7 @@ function buyEmployee()
     {
         linesOfCode= linesOfCode - employeeCost;
         employees = employees + 1;
-        employeeCostCost = employeeCost * 1.5;
+        employeeCost = employeeCost * 1.5;
         updateScreen()
     }
 }
@@ -65,7 +65,7 @@ function updateScreen()
 
     document.getElementById("power-display").innerText= clickPower;
     document.getElementById("cost-display").innerText= upgradeCost;
-    document.getElementById("cost-electric-display").innerText= electricUpgradeCostpgradeCost;
+    document.getElementById("cost-electric-display").innerText= electricUpgradeCost;
 
     document.getElementById("intern-display").innerText = interns;
     document.getElementById("cost-intern-display").innerText = internCost;
