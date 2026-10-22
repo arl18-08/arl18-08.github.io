@@ -65,11 +65,11 @@ function updateScreen()
 
     document.getElementById("power-display").innerText= clickPower;
     document.getElementById("cost-display").innerText= upgradeCost;
-    document.getElementById("cost-electric-display").innerText= upgradeCost;
+    document.getElementById("cost-electric-display").innerText= electricUpgradeCostpgradeCost;
 
     document.getElementById("intern-display").innerText = interns;
     document.getElementById("cost-intern-display").innerText = internCost;
-    document.getElementById("cost-employee-display").innerText = internCost;
+    document.getElementById("cost-employee-display").innerText = employeeCost;
 }
 
 setInterval(function() {
