@@ -24,5 +24,11 @@ function countdown()
 {
     timeLeft --; 
     timeDisplay.innerText= timeLeft;
-    
+
+}
+
+function hitTarget()
+{
+    score ++;
+    scoreDisplay.innerText= score;
 }
